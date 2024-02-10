@@ -6,7 +6,7 @@ const Slider1 = () => {
   return (
     <div>
  <Carousel data-bs-theme="dark">
-      <Carousel.Item interval={3000}>
+      <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/zima2.jpg"
@@ -14,14 +14,14 @@ const Slider1 = () => {
         />
         <Carousel.Caption>  
         <div class="content">
-          <h1>Чегемские водопады зимой – это
+          <h2>Чегемские водопады зимой – это
       холод и дикая красота природы Кабардино-Балкарии. Вы можете
       увидеть гигантские столбы льда, прозрачные колонны и сталактиты
-      замерзшей воды, спускающиеся к самой реке.</h1>
+      замерзшей воды, спускающиеся к самой реке.</h2>
         </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
+      <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/zima1.jpg"
@@ -29,12 +29,12 @@ const Slider1 = () => {
         />
         <Carousel.Caption>
         <div  class="content">
-          <h1>Как люстры с хрустальной
+          <h2>Как люстры с хрустальной
       переливающейся бахромой нависают ледяные свечи над Чегемом. Чегемские водопады вырываются прямо из скал, за это их еще
-        называют "Плачущими водопадами", будто сами скалы плачут.</h1> </div>
+        называют "Плачущими водопадами", будто сами скалы плачут.</h2> </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
+      <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/zima4.jpg"
@@ -42,10 +42,10 @@ const Slider1 = () => {
         />
         <Carousel.Caption>
         <div class="content">
-        <h1>Чегемские водопады — впечатляющее творение природы, прекрасное
+        <h2>Чегемские водопады — впечатляющее творение природы, прекрасное
           своей суровостью и мощью. Горная река Чегем мечется
           в тесном русле, с трудом пробивая путь в извилистых ущельях —
-          отсюда и название «Чегем», что значит «земля сломалась».</h1>
+          отсюда и название «Чегем», что значит «земля сломалась».</h2>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
