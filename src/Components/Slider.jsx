@@ -51,7 +51,7 @@ const Slider = () => {
         <img 
           className="d-block w-100"
           src="./img/osen2.jpg"
-          alt="Fourth slide"
+          alt="Fifth slide"
         />
         <Carousel.Caption>
        
@@ -61,7 +61,7 @@ const Slider = () => {
         <img 
           className="d-block w-100"
           src="./img/osen3.jpg"
-          alt="Fourth slide"
+          alt="Sixth slide"
         />
         <Carousel.Caption>
         
@@ -71,7 +71,7 @@ const Slider = () => {
         <img 
           className="d-block w-100"
           src="./img/vesna1.jpg"
-          alt="Fourth slide"
+          alt="Seventh slide"
         />
         <Carousel.Caption>
         
@@ -81,7 +81,7 @@ const Slider = () => {
         <img 
           className="d-block w-100"
           src="./img/vesna2.jpg"
-          alt="Fourth slide"
+          alt="Eighth slide"
         />
         <Carousel.Caption>
        
@@ -91,7 +91,7 @@ const Slider = () => {
         <img 
           className="d-block w-100"
           src="./img/vesna3.jpg"
-          alt="Fourth slide"
+          alt="Ninth slide"
         />
         <Carousel.Caption>
         

@@ -6,7 +6,7 @@ const Slider2 = () => {
   return (
     <div>
  <Carousel data-bs-theme="dark">
-      <Carousel.Item interval={3000}>
+      <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/ozero1.jpg"
