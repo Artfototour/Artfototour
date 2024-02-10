@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.dropdown-menu a{
+  color: #c68c45 !important;
+}
+
+.dropdown-menu a:hover{
+  color: #F7BE6F !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {text-decoration: none; color: white;}
+a:hover {text-decoration: none; color: #61dafb;}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 110px); /* calculate height of the screen minus the heading */
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute; /* Расположите фоновый текст */
+  bottom: 0; /* В самом низу. Используйте top: 0, чтобы добавить его к началу */
+  background: rgb(0, 0, 0); /* Цвет запасной вариант */
+  background: rgba(0, 0, 0, 0.4); /* Черный фон с 0,5 непрозрачностью */
+  color: #f1f1f1; /* Серый текст */
+  width: 100%; /* Полная ширина */
+  padding: 20px; /* Немного отступов */ 
+}
