@@ -6,7 +6,8 @@ const Slider2 = () => {
   return (
     <div>
  <Carousel data-bs-theme="dark">
-      <Carousel.Item interval={2500}>
+
+ <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/ozero1.jpg"
@@ -18,17 +19,17 @@ const Slider2 = () => {
           расположенных в Черекском районе, недалеко от с. Бабугент.</h2> 
             </div>
         </Carousel.Caption>
-      </Carousel.Item>
+        </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
           src="./img/ozero2.jpg"
-          alt="Second slide"
+          alt="First slide"
         />
         <Carousel.Caption>
         <div class="content">
-        <h2>Голубые озера находятся на территории особо охраняемой зоны, образованной в 1978г. с целью сохранения 
-          уникальных памятников природы.</h2> 
+        <h2>Голубые озера находятся на территории особо охраняемой зоны,
+           образованной в 1978г. с целью сохранения уникальных памятников природы.</h2> 
             </div>
         </Carousel.Caption>
       </Carousel.Item>
