@@ -14,7 +14,7 @@ const Header = () => {
           <Navbar.Brand><Link to={'/'}>Art-Fototour</Link></Navbar.Brand>
           </Nav>
 
-          <Nav className="centrered"> 
+          <Nav className="auto"> 
           <NavDropdown title="Туры">
             <Nav.Link><Link to={'/Slider1'}>Чегемские водопады</Link></Nav.Link>
             <Nav.Link><Link to={'/Slider2'}>Голубые озера</Link></Nav.Link>

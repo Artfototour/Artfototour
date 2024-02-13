@@ -40,9 +40,8 @@ a {text-decoration: none; color: white;}
 a:hover {text-decoration: none; color: #61dafb;}
 
 .carousel,
-.carousel-inner,
-.carousel-inner .item,
-.carousel-inner img {
+.carousel .item,
+.carousel img {
   height: 100% !important;
   width: 100% !important;
 }
@@ -67,4 +66,5 @@ a:hover {text-decoration: none; color: #61dafb;}
   color: #f1f1f1; /* Серый текст */
   width: 100%; /* Полная ширина */
   padding: 20px; /* Немного отступов */ 
+  margin: 1em;
 }

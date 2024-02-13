@@ -80,23 +80,14 @@ const Slider = () => {
       <Carousel.Item interval={2500}>
         <img 
           className="d-block w-100"
-          src="./img/vesna2.jpg"
+          src="./img/vesna3.jpg"
           alt="Eighth slide"
         />
         <Carousel.Caption>
        
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2500}>
-        <img 
-          className="d-block w-100"
-          src="./img/vesna3.jpg"
-          alt="Ninth slide"
-        />
-        <Carousel.Caption>
-        
-        </Carousel.Caption>
-      </Carousel.Item>
+    
       </Carousel>
   
   )
