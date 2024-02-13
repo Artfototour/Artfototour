@@ -17,7 +17,7 @@ const Map=()=> {
        zoom={10}
        style={{
          width: '100vw',
-         height: '625px'
+         height: '100%'
        }}
        >
          <TileLayer
