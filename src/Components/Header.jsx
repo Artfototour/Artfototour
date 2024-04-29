@@ -12,6 +12,7 @@ const Header = () => {
         <Container>
         <Nav className="me-auto">
           <Navbar.Brand><Link to={'/'}>Art-Fototour</Link></Navbar.Brand>
+          <a href="https://mega.nz/folder/Eq0zHKIa#MsKsl3PnhQHNvOxBBv_f_Q" class="btn btn-primary">FotoFree</a>
           </Nav>
 
           <Nav className="auto"> 
