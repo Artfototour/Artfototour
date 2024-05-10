@@ -6,7 +6,7 @@ const Slider1 = () => {
   return (
     <div>
  <Carousel data-bs-theme="dark">
-      <Carousel.Item interval={2500}>
+      <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/zima2.jpg"
@@ -21,7 +21,7 @@ const Slider1 = () => {
         </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2500}>
+      <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/zima1.jpg"
@@ -34,7 +34,7 @@ const Slider1 = () => {
         называют "Плачущими водопадами", будто сами скалы плачут.</h2> </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2500}>
+      <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/zima4.jpg"
