@@ -7,7 +7,7 @@ const Slider2 = () => {
     <div>
  <Carousel data-bs-theme="dark">
 
- <Carousel.Item interval={2500}>
+ <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/ozero1.jpg"
@@ -20,11 +20,11 @@ const Slider2 = () => {
             </div>
         </Carousel.Caption>
         </Carousel.Item>
-      <Carousel.Item interval={2500}>
+      <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/ozero2.jpg"
-          alt="First slide"
+          alt="Second slide"
         />
         <Carousel.Caption>
         <div class="content">
@@ -33,7 +33,7 @@ const Slider2 = () => {
             </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2500}>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="./img/ozero3.jpg"
