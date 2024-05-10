@@ -6,25 +6,11 @@ const Slider2 = () => {
   return (
     <div>
  <Carousel data-bs-theme="dark">
-
- <Carousel.Item interval={3000}>
-        <img 
-          className="d-block w-100"
-          src="./img/ozero1.jpg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        <div class="content">
-        <h2>Голубые озера Кабардино-Балкарии — это группа из пяти карстовых водоемов, 
-          расположенных в Черекском районе, недалеко от с. Бабугент.</h2> 
-            </div>
-        </Carousel.Caption>
-        </Carousel.Item>
       <Carousel.Item interval={3000}>
         <img 
           className="d-block w-100"
           src="./img/ozero2.jpg"
-          alt="Second slide"
+          alt="First slide"
         />
         <Carousel.Caption>
         <div class="content">
@@ -33,15 +19,6 @@ const Slider2 = () => {
             </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
-        <img
-          className="d-block w-100"
-          src="./img/ozero3.jpg"
-          alt="Third slide"
-        />
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-    
       </Carousel>
     </div>     
   )
